@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #302B27;
+}
+
+h1, h2, p {
+    color: #F5F3F5;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
