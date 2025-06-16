@@ -1,6 +1,6 @@
 import './CardSet.css';
 import { useState } from 'react';
-import Cards from './Cards'
+import Card from './Card'
 import sets from '../data/cardSets.json'
 
 const CardSet = () => {
@@ -31,7 +31,7 @@ const CardSet = () => {
                 <button onClick={handleMedium}>Medium</button>
                 <button onClick={handleHard}>Hard</button>
             </div>
-            <Cards card={sets[cardSet][index]} key={index} />
+            <Card card={sets[cardSet][index]} key={index} />
             <div className='next'>
                 <button onClick={setRandomIndex}>Next</button>
             </div>

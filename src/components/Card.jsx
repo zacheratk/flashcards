@@ -1,7 +1,7 @@
-import './Cards.css';
+import './Card.css';
 import { useState } from 'react';
 
-const Cards = (props) => {
+const Card = (props) => {
     const [flipped, setFlipped] = useState(false)
 
     const toggleFlipped = () => {
@@ -23,4 +23,4 @@ const Cards = (props) => {
     );
 }
 
-export default Cards;
+export default Card;
