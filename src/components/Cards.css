@@ -33,6 +33,11 @@
     border-radius: 15px;
 }
 
+.card-front *,
+.card-back * {
+    font-size: 3rem;
+}
+
 .card-front * {
     color: #302B27;
 }

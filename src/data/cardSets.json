@@ -1,0 +1,32 @@
+{
+    "easy": [
+        {
+            "front": "6th string, open.",
+            "back": "E"
+        },
+        {
+            "front": "6th string, 1st fret.",
+            "back": "F"
+        },
+        {
+            "front": "6th string, 3rd fret.",
+            "back": "G"
+        },
+        {
+            "front": "6th string, 4th fret.",
+            "back": "G# / A♭)"
+        }
+    ],
+    "medium": [
+        {
+            "front": "Sorry! Medium isn't ready yet!",
+            "back": "Sorry! Medium isn't ready yet!"
+        }
+    ],
+    "hard": [
+        {
+            "front": "Sorry! Hard isn't ready yet!",
+            "back": "Sorry! Hard isn't ready yet!"
+        }
+    ]
+}

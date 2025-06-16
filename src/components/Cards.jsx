@@ -13,10 +13,10 @@ const Cards = (props) => {
         <div className={flipped ? 'card flipped' : 'card'} onClick={toggleFlipped}>
             <div className='card-inner'>
                 <div className='card-front'>
-                    <p>{props.set}</p>
+                    <p>{props.card.front}</p>
                 </div>
                 <div className='card-back'>
-                    <p>You've flipped the card!</p>
+                    <p>{props.card.back}</p>
                 </div>
             </div>
         </div>
