@@ -9,12 +9,48 @@
             "back": "F"
         },
         {
+            "front": "6th string, 2nd fret.",
+            "back": "F# / G♭"
+        },
+        {
             "front": "6th string, 3rd fret.",
             "back": "G"
         },
         {
             "front": "6th string, 4th fret.",
             "back": "G# / A♭"
+        },
+        {
+            "front": "6th string, 5th fret.",
+            "back": "A"
+        },
+        {
+            "front": "6th string, 6th fret.",
+            "back": "A# / B♭"
+        },
+        {
+            "front": "6th string, 7th fret.",
+            "back": "B"
+        },
+        {
+            "front": "6th string, 8th fret.",
+            "back": "C"
+        },
+        {
+            "front": "6th string, 9th fret.",
+            "back": "C# / D♭"
+        },
+        {
+            "front": "6th string, 10th fret.",
+            "back": "D"
+        },
+        {
+            "front": "6th string, 11th fret.",
+            "back": "D# / E♭"
+        },
+        {
+            "front": "6th string, 12th fret.",
+            "back": "E"
         }
     ],
     "medium": [
