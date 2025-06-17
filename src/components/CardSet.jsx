@@ -28,6 +28,7 @@ const CardSet = () => {
                 <button onClick={handleMedium}>Medium</button>
                 <button onClick={handleHard}>Hard</button>
             </div>
+            <p>Total Cards: {sets[cardSet].length - 1}</p>
             <Card card={sets[cardSet][index]} key={index} />
             <div className='next'>
                 <button onClick={setRandomIndex}>Next</button>
