@@ -13,16 +13,13 @@ const CardSet = () => {
     }
 
     const setRandomIndex = () => {
-        let randomIndex = Math.floor(Math.random() * sets[cardSet].length);
+        let randomIndex = Math.floor(Math.random() * (sets[cardSet].length-1)) + 1;
         setIndex(randomIndex);
     }
 
     const handleEasy = () => { changeDifficulty('easy') }
     const handleMedium = () => { changeDifficulty('medium') }
     const handleHard = () => { changeDifficulty('hard') }
-
-
-
 
     return (
         <div className='content'>

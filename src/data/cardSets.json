@@ -1,6 +1,10 @@
 {
     "easy": [
         {
+            "front": "Easy: Notes on the 6th string",
+            "back": "Click next to start!"
+        },
+        {
             "front": "6th string, open.",
             "back": "E"
         },
@@ -54,6 +58,10 @@
         }
     ],
     "medium": [
+        {
+            "front": "Medium: Notes on strings 4 to 6",
+            "back": "Click next to start!"
+        },
         {
             "front": "6th string, open.",
             "back": "E"
@@ -212,6 +220,10 @@
         }
     ],
     "hard": [
+        {
+            "front": "Hard: Notes on all 6 strings!",
+            "back": "Click next to start!"
+        },
         {
             "front": "6th string, open.",
             "back": "E"
