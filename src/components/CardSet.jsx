@@ -10,6 +10,8 @@ const CardSet = () => {
     const [accidentalIndex, setAccidentalIndex] = useState(0);
     const [guessValue, setGuessValue] = useState('');
     
+    const currentCard = sets[cardSet][index];
+
     // State of the user's guess typed into the GuessInput component
     const onInputChange = (e) => {
         let val = e.target.value;
@@ -37,6 +39,16 @@ const CardSet = () => {
 
         setAccidentalIndex(newIndex);
     };
+
+    const checkGuess = () => {
+        const note = guessValue;
+        const accidental = accidentals[accidentalIndex];
+        if (currentCard.answer.includes(note + accidental)) {
+            alert("Correct!");
+        } else {
+            alert("Incorrect!")
+        }
+    }
 
     const changeDifficulty = (difficulty) => {
         setCardSet(difficulty);
@@ -66,6 +78,7 @@ const CardSet = () => {
                 cycleAccidental={cycleAccidental}
                 guessValue={guessValue}
                 onChange={onInputChange}
+                checkGuess={checkGuess}
             />
             <div className='next'>
                 <button onClick={setRandomIndex}>Next</button>

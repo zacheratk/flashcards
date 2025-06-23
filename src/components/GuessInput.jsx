@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './GuessInput.css'
 
-const GuessInput = ({accidental, cycleAccidental, guessValue, onChange}) => {
+const GuessInput = ({accidental, cycleAccidental, guessValue, onChange, checkGuess}) => {
 
     return (
         <div className='container'>
@@ -13,7 +13,7 @@ const GuessInput = ({accidental, cycleAccidental, guessValue, onChange}) => {
                 >
                     {accidental}</button>
             </div>
-            <button>Guess</button>
+            <button onClick={checkGuess}>Guess</button>
         </div>
     );
 }
