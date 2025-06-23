@@ -1,11 +1,42 @@
 import './CardSet.css';
 import { useState } from 'react';
-import Card from './Card'
-import sets from '../data/cardSets.json'
+import Card from './Card';
+import GuessInput from './GuessInput';
+import sets from '../data/cardSets.json';
 
 const CardSet = () => {
     const [cardSet, setCardSet] = useState('easy');
     const [index, setIndex] = useState(0)
+    const [accidentalIndex, setAccidentalIndex] = useState(0);
+    const [guessValue, setGuessValue] = useState('');
+    
+    // State of the user's guess typed into the GuessInput component
+    const onInputChange = (e) => {
+        let val = e.target.value;
+        
+        if (val.length > 1) {
+            val = val[val.length-1];
+        }
+
+        if (val.length !== 0) {
+            val = val.toUpperCase();
+        } else {
+            setGuessValue('');
+        }
+
+        if (['A', 'B', 'C', 'D', 'E', 'F', 'G'].includes(val)){
+            setGuessValue(val);
+        }
+    }
+
+    const accidentals = ['♮', '♯', '♭'];
+    
+    // Cycles through the selected accidental in the GuessInput component
+    const cycleAccidental = () => {
+        let newIndex = (accidentalIndex + 1) % 3;
+
+        setAccidentalIndex(newIndex);
+    };
 
     const changeDifficulty = (difficulty) => {
         setCardSet(difficulty);
@@ -30,6 +61,12 @@ const CardSet = () => {
             </div>
             <p>Total Cards: {sets[cardSet].length - 1}</p>
             <Card card={sets[cardSet][index]} key={index} />
+            <GuessInput
+                accidental={accidentals[accidentalIndex]} 
+                cycleAccidental={cycleAccidental}
+                guessValue={guessValue}
+                onChange={onInputChange}
+            />
             <div className='next'>
                 <button onClick={setRandomIndex}>Next</button>
             </div>

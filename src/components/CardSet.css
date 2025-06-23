@@ -19,6 +19,6 @@ button {
 }
 /* Make the buttons feel more interactive */
 button:active {
-    background-color: #4f3e9b;
+    background-color: #312567;
     transform: scale(0.95);
 }
