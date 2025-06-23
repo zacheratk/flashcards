@@ -9,7 +9,9 @@ const CardSet = () => {
     const [index, setIndex] = useState(0)
     const [accidentalIndex, setAccidentalIndex] = useState(0);
     const [guessValue, setGuessValue] = useState('');
-    
+    const [guessResult, setGuessResult] = useState('');
+    const [popupActive, setPopupActive] = useState(false);
+
     const currentCard = sets[cardSet][index];
 
     // State of the user's guess typed into the GuessInput component
@@ -44,10 +46,14 @@ const CardSet = () => {
         const note = guessValue;
         const accidental = accidentals[accidentalIndex];
         if (currentCard.answer.includes(note + accidental)) {
-            alert("Correct!");
+            setGuessResult("Correct!")
         } else {
-            alert("Incorrect!")
+            setGuessResult("Incorrect!")
         }
+
+        setPopupActive(true);
+
+        setTimeout(() => { setPopupActive(false)}, 3000);
     }
 
     const changeDifficulty = (difficulty) => {
@@ -73,6 +79,7 @@ const CardSet = () => {
             </div>
             <p>Total Cards: {sets[cardSet].length - 1}</p>
             <Card card={sets[cardSet][index]} key={index} />
+            <p className={(popupActive ? 'popup visible' : 'popup') + ' ' + (guessResult === 'Correct!' ? 'correct' : 'incorrect')}>{guessResult}</p>
             <GuessInput
                 accidental={accidentals[accidentalIndex]} 
                 cycleAccidental={cycleAccidental}
