@@ -1,540 +1,658 @@
 {
     "easy": [
         {
-            "front": "Easy: Notes on the 6th string",
-            "back": "Click next to start!"
-        },
-        {
             "front": "6th string, open.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "6th string, 1st fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "6th string, 2nd fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "6th string, 3rd fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "6th string, 4th fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "6th string, 5th fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "6th string, 6th fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "6th string, 7th fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "6th string, 8th fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "6th string, 9th fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "6th string, 10th fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "6th string, 11th fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "6th string, 12th fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         }
     ],
     "medium": [
         {
-            "front": "Medium: Notes on strings 4 to 6",
-            "back": "Click next to start!"
-        },
-        {
             "front": "6th string, open.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "6th string, 1st fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "6th string, 2nd fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "6th string, 3rd fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "6th string, 4th fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "6th string, 5th fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "6th string, 6th fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "6th string, 7th fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "6th string, 8th fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "6th string, 9th fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "6th string, 10th fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "6th string, 11th fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "6th string, 12th fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "5th string, open.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "5th string, 1st fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "5th string, 2nd fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "5th string, 3rd fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "5th string, 4th fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "5th string, 5th fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "5th string, 6th fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "5th string, 7th fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "5th string, 8th fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "5th string, 9th fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "5th string, 10th fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "5th string, 11th fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "5th string, 12th fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "4th string, open.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "4th string, 1st fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "4th string, 2nd fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "4th string, 3rd fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "4th string, 4th fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "4th string, 5th fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "4th string, 6th fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "4th string, 7th fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "4th string, 8th fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "4th string, 9th fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "4th string, 10th fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "4th string, 11th fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "4th string, 12th fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         }
     ],
     "hard": [
         {
-            "front": "Hard: Notes on all 6 strings!",
-            "back": "Click next to start!"
-        },
-        {
             "front": "6th string, open.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "6th string, 1st fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "6th string, 2nd fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "6th string, 3rd fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "6th string, 4th fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "6th string, 5th fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "6th string, 6th fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "6th string, 7th fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "6th string, 8th fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "6th string, 9th fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "6th string, 10th fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "6th string, 11th fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "6th string, 12th fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "5th string, open.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "5th string, 1st fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "5th string, 2nd fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "5th string, 3rd fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "5th string, 4th fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "5th string, 5th fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "5th string, 6th fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "5th string, 7th fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "5th string, 8th fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "5th string, 9th fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "5th string, 10th fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "5th string, 11th fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "5th string, 12th fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "4th string, open.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "4th string, 1st fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "4th string, 2nd fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "4th string, 3rd fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "4th string, 4th fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "4th string, 5th fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "4th string, 6th fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "4th string, 7th fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "4th string, 8th fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "4th string, 9th fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "4th string, 10th fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "4th string, 11th fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "4th string, 12th fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "3rd string, open.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "3rd string, 1st fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "3rd string, 2nd fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "3rd string, 3rd fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "3rd string, 4th fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "3rd string, 5th fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "3rd string, 6th fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "3rd string, 7th fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "3rd string, 8th fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "3rd string, 9th fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "3rd string, 10th fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "3rd string, 11th fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "3rd string, 12th fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "2nd string, open.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "2nd string, 1st fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "2nd string, 2nd fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "2nd string, 3rd fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "2nd string, 4th fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "2nd string, 5th fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "2nd string, 6th fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "2nd string, 7th fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "2nd string, 8th fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "2nd string, 9th fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "2nd string, 10th fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "2nd string, 11th fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "2nd string, 12th fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "1st string, open.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         },
         {
             "front": "1st string, 1st fret.",
-            "back": "F"
+            "back": "F",
+            "answer": ["F♮"]
         },
         {
             "front": "1st string, 2nd fret.",
-            "back": "F# / G♭"
+            "back": "F# / G♭",
+            "answer": ["F♯", "G♭"]
         },
         {
             "front": "1st string, 3rd fret.",
-            "back": "G"
+            "back": "G",
+            "answer": ["G♮"]
         },
         {
             "front": "1st string, 4th fret.",
-            "back": "G# / A♭"
+            "back": "G# / A♭",
+            "answer": ["G♯", "A♭"]
         },
         {
             "front": "1st string, 5th fret.",
-            "back": "A"
+            "back": "A",
+            "answer": ["A♮"]
         },
         {
             "front": "1st string, 6th fret.",
-            "back": "A# / B♭"
+            "back": "A# / B♭",
+            "answer": ["A♯", "B♭"]
         },
         {
             "front": "1st string, 7th fret.",
-            "back": "B"
+            "back": "B",
+            "answer": ["B♮"]
         },
         {
             "front": "1st string, 8th fret.",
-            "back": "C"
+            "back": "C",
+            "answer": ["C♮"]
         },
         {
             "front": "1st string, 9th fret.",
-            "back": "C# / D♭"
+            "back": "C# / D♭",
+            "answer": ["C♯", "D♭"]
         },
         {
             "front": "1st string, 10th fret.",
-            "back": "D"
+            "back": "D",
+            "answer": ["D♮"]
         },
         {
             "front": "1st string, 11th fret.",
-            "back": "D# / E♭"
+            "back": "D# / E♭",
+            "answer": ["D♯", "E♭"]
         },
         {
             "front": "1st string, 12th fret.",
-            "back": "E"
+            "back": "E",
+            "answer": ["E♮"]
         }
     ]
 }
