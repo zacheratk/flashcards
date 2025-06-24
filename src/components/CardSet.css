@@ -23,6 +23,10 @@ button:active {
     transform: scale(0.95);
 }
 
+button:disabled {
+    background-color: #3a3837;
+}
+
 .popup {
     position: absolute;
     left: 0;

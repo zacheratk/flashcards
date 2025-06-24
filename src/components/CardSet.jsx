@@ -31,7 +31,7 @@ const CardSet = () => {
         if (['A', 'B', 'C', 'D', 'E', 'F', 'G'].includes(val)){
             setGuessValue(val);
         }
-    }
+    };
 
     const accidentals = ['♮', '♯', '♭'];
     
@@ -46,29 +46,36 @@ const CardSet = () => {
         const note = guessValue;
         const accidental = accidentals[accidentalIndex];
         if (currentCard.answer.includes(note + accidental)) {
-            setGuessResult("Correct!")
+            setGuessResult("Correct!");
         } else {
-            setGuessResult("Incorrect!")
+            setGuessResult("Incorrect!");
         }
 
         setPopupActive(true);
 
         setTimeout(() => { setPopupActive(false)}, 3000);
-    }
+    };
 
     const changeDifficulty = (difficulty) => {
         setCardSet(difficulty);
         setIndex(0);
-    }
+    };
 
-    const setRandomIndex = () => {
-        let randomIndex = Math.floor(Math.random() * (sets[cardSet].length-1)) + 1;
-        setIndex(randomIndex);
-    }
+    const moveNext = () => {
+        if (index < sets[cardSet].length - 1) {
+            setIndex(index + 1);
+        }
+    };
 
-    const handleEasy = () => { changeDifficulty('easy') }
-    const handleMedium = () => { changeDifficulty('medium') }
-    const handleHard = () => { changeDifficulty('hard') }
+    const movePrevious = () => {
+        if (index > 0) {
+            setIndex(index - 1);
+        }
+    };
+
+    const handleEasy = () => { changeDifficulty('easy') };
+    const handleMedium = () => { changeDifficulty('medium') };
+    const handleHard = () => { changeDifficulty('hard') };
 
     return (
         <div className='content'>
@@ -88,10 +95,19 @@ const CardSet = () => {
                 checkGuess={checkGuess}
             />
             <div className='next'>
-                <button onClick={setRandomIndex}>Next</button>
+                <button
+                    onClick={movePrevious}
+                    disabled={index === 0}>
+                        Previous
+                </button>
+                <button 
+                    onClick={moveNext}
+                    disabled={index === sets[cardSet].length-1}>
+                        Next
+                </button>
             </div>
         </div>
     );
-}
+};
 
 export default CardSet;
