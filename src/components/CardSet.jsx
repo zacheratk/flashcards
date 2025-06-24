@@ -80,9 +80,9 @@ const CardSet = () => {
     return (
         <div className='content'>
             <div className='difficulty'>
-                <button onClick={handleEasy}>Easy</button>
-                <button onClick={handleMedium}>Medium</button>
-                <button onClick={handleHard}>Hard</button>
+                <button onClick={handleEasy} disabled={cardSet === 'easy'}>Easy</button>
+                <button onClick={handleMedium} disabled={cardSet === 'medium'}>Medium</button>
+                <button onClick={handleHard} disabled={cardSet === 'hard'}>Hard</button>
             </div>
             <p>Total Cards: {sets[cardSet].length - 1}</p>
             <Card card={sets[cardSet][index]} key={index} />
