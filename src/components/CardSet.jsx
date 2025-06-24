@@ -58,7 +58,6 @@ const CardSet = () => {
 
     const changeDifficulty = (difficulty) => {
         setCardSet(difficulty);
-        shuffleCurrentSet();
         setIndex(1)
         setTimeout(() => setIndex(0), 0);
     };
