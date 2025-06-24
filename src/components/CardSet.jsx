@@ -58,7 +58,9 @@ const CardSet = () => {
 
     const changeDifficulty = (difficulty) => {
         setCardSet(difficulty);
-        setIndex(0);
+        shuffleCurrentSet();
+        setIndex(1)
+        setTimeout(() => setIndex(0), 0);
     };
 
     const moveNext = () => {
@@ -71,6 +73,31 @@ const CardSet = () => {
         if (index > 0) {
             setIndex(index - 1);
         }
+    };
+
+    const handleShuffle = () => {
+        shuffleCurrentSet();
+        setIndex(1)
+        setTimeout(() => setIndex(0), 0);
+    };
+
+    const shuffleCurrentSet = () => {
+        let currentIndex = sets[cardSet].length;
+        let randomIndex;
+
+        while (currentIndex !== 0) {
+            // Choose a random index from the remainder of the list
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+            // Swap the value at the currentIndex with the randomIndex
+            [sets[cardSet][currentIndex], sets[cardSet][randomIndex]] = [
+                sets[cardSet][randomIndex],
+                sets[cardSet][currentIndex]
+            ];
+        }
+
+        // Once shuffled, reset user's current index
+        setIndex(0);
     };
 
     const handleEasy = () => { changeDifficulty('easy') };
@@ -105,6 +132,10 @@ const CardSet = () => {
                     disabled={index === sets[cardSet].length-1}>
                         Next
                 </button>
+                <button
+                    onClick={handleShuffle}>
+                        Shuffle
+                    </button>
             </div>
         </div>
     );
